@@ -4,9 +4,9 @@ import AppReducer from './AppReducer';
 
 const intialState = {
     transactions:[
-        {id:1 , text:"laptop " , amount: -1500},
-        {id:2 , text:"Work " , amount: 2300},
-        {id:3 , text:"shopping " , amount: -500}
+        // {id:1 , text:"laptop " , amount: -1500},
+        // {id:2 , text:"Work " , amount: 2300},
+        // {id:3 , text:"shopping " , amount: -500}
 
     ]
 }
@@ -23,9 +23,16 @@ export const GlobalProvider = ({children})=>{
 
         })
     }
+    function addtransaction(transaction){
+        dispatch({
+            type: 'ADDTRANSACTION',
+            payload: transaction
+
+        })
+    }
     
     return(
-        <GlobalContext.Provider value={{transactions: state.transactions,deletetransaction}}>
+        <GlobalContext.Provider value={{transactions: state.transactions,deletetransaction,addtransaction}}>
             {children}
         </GlobalContext.Provider>
     )
