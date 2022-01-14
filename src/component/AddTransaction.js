@@ -21,6 +21,7 @@ export default function AddTransaction() {
 
     return (
         <>
+            <div className="form">
             <h4>Add Transaction</h4>
             <form onSubmit={onSubmit}>
                 <div>
@@ -33,6 +34,7 @@ export default function AddTransaction() {
                 </div>
                 <button>Enter Add Transaction</button>
             </form>  
+            </div>
         </>
     )
 }

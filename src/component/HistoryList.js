@@ -8,7 +8,7 @@ export default function HistoryList() {
     return (
 
         <>
-          <div>
+          <div className="history">
               <h4>Hstory</h4>
             <ul>
               {transactions.map(transactions=>(<li>{transactions.text} <span>{transactions.amount}$</span><button onClick={()=>deletetransaction(transactions.id)}>x</button></li>))}  

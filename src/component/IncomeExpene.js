@@ -9,7 +9,7 @@ export default function IncomeExpene() {
 
 
     return (
-        <div>
+        <div className="incomeexpene">
             <div>
                 <h4>Income</h4>
                 <p>{income}$</p>

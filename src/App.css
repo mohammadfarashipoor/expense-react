@@ -1,0 +1,34 @@
+.container{
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  35px 35px 70px #bebebe,
+             -35px -35px 70px #ffffff;
+    padding:15px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.balance{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.incomeexpene{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.history{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
