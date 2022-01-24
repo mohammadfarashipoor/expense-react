@@ -1,34 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: -webkit-pictograph;
+
+    vertical-align: baseline;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+}
 .container{
-    border-radius: 50px;
-    background: #e0e0e0;
-    box-shadow:  35px 35px 70px #bebebe,
-             -35px -35px 70px #ffffff;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #e4e3e3, #ffffff);
+    box-shadow:  11px 11px 41px #c0c0c0,
+                 -11px -11px 41px #ffffff;
     padding:15px;
+    width: 60vw;
+    text-align: center;
+    margin: 0 auto;
+
 }
 .header{
     display: flex;
     justify-content: center;
     justify-items: center;
+    padding:15px;
+
 }
 .balance{
     display: flex;
     justify-content: center;
     justify-items: center;
+    padding:15px;
+
 }
 .incomeexpene{
     display: flex;
     justify-content: center;
     justify-items: center;
+    padding:15px;
+
 }
 .history{
-    display: flex;
     justify-content: center;
     justify-items: center;
+    padding:15px;
+
+    
 }
 
 
 .form{
-    display: flex;
     justify-content: center;
     justify-items: center;
+    padding:15px;
+
+}
+.balance h1{
+    padding-left: 10px;
+
+    
+}
+.incomeexpene h4{
+    padding: 10px;
+
+}
+.incomeexpene div:nth-child(1){
+    color:rgb(42, 165, 73);
+}
+.incomeexpene div:nth-child(2){
+    color:brown;
+}
+.history ul{
+    border-radius: 51px;
+    background: #ffffff;
+    box-shadow:  21px 21px 51px #b5b5b5,
+                 -21px -21px 51px #ffffff;
+    list-style-type: none;
+    margin:10px;
+    position: relative;
+    display: inline-grid;
+    padding: 10px 18vw;
+}
+.history ul li{
+    margin:10px;
+    padding:10px;
+
+}
+.history ul li button{
+    position: absolute;
+    padding:5px 8px;
+    margin-left: 60px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.history ul li button:hover{
+    box-shadow:0 0 5px #fd9c9c;
+    transition: 400ms;
+    background-color:#f8b2b2;
+
+}
+.form form{
+    padding: 10px;
+}
+.form form div{
+    padding: 8px;
+}
+.form form div label{
+    padding: 5px;
+}
+.form form div input{
+    padding: 5px;
+    border-radius:8px;
+    width: 15vw;
+
+}
+.form form div input:hover{
+    box-shadow: 0 0 10px #585858;
+    transition: 500ms;
+}
+.form form button{
+    margin:10px;
+    padding: 8px;
+    border-radius:8px;
+    cursor: pointer;
+    width: 15vw;
+
+}
+.form form button:hover{
+    box-shadow: 8px 8px 25px #585858;
+    transition: 500ms;
+
 }
